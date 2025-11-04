@@ -133,20 +133,20 @@ class HabrSearchEngine:
                 logger.error(f"Ошибка поиска точной фразы: {e}")
                 return None
 
-        # Умная проверка орфографии для простого поиска
-        if search_type == "simple" and self.should_use_spell_check(query):
+        # Умная проверка орфографии
+        if self.should_use_spell_check(query):
             corrected_query = self.smart_spell_check(query)
             if corrected_query != query:
                 query = corrected_query
 
         if search_type == "exact":
-            # ТОЧНЫЙ поиск без опечаток
+            # ТОЧНЫЙ поиск - должны присутствовать все слова (оператор AND)
             search_body = {
                 "query": {
                     "multi_match": {
                         "query": query,
                         "fields": ["title^3", "text^2", "hubs^2", "tags^2", "author"],
-                        "operator": "and"  # Все слова должны быть
+                        "operator": "and"  # Все слова должны быть, все 100%
                     }
                 },
                 "highlight": {
@@ -159,13 +159,14 @@ class HabrSearchEngine:
                 }
             }
         elif search_type == "simple":
-            # Простой поиск с умной проверкой орфографии
+            # Оператор OR
             search_body = {
                 "query": {
                     "multi_match": {
                         "query": query,
-                        "fields": ["title^3", "text^2", "hubs^2", "tags^2", "author"],
-                        "operator": "or"
+                        "fields": ["title^5", "text^2", "tags^2", "hubs^2", "author"],
+                        "operator": "or",
+                        "minimum_should_match": "67%"
                     }
                 },
                 "highlight": {
@@ -177,8 +178,8 @@ class HabrSearchEngine:
                     }
                 }
             }
-        elif search_type == "advanced":
-            # Расширенный поиск
+        elif search_type == "boost":
+            # Экспериментальный поиск с бустингом
             search_body = {
                 "query": {
                     "bool": {
@@ -215,7 +216,8 @@ class HabrSearchEngine:
                                     }
                                 }
                             }
-                        ]
+                        ],
+                        "minimum_should_match": "67%"
                     }
                 },
                 "highlight": {
@@ -293,20 +295,20 @@ class HabrSearchEngine:
 def main():
     try:
         search_engine = HabrSearchEngine()
-        print("🔍 Умная поисковая система Habr")
+        print("Умная поисковая система Habr")
         print("Доступные команды:")
-        print("  /exact   - точный поиск (без исправлений)")
-        print("  /simple  - простой поиск (с умными исправлениями)")
-        print("  /advanced - расширенный поиск")
+        print("  /exact   - точный поиск (все 100% слов)")
+        print("  /simple  - простой поиск (для +2 слов минимум 75% из них)")
+        print("  /boost - поиск с бустингом (для +2 слов минимум 75% из них)")
         print("  /exit    - выход")
-        print("\n✨ Особенности:")
+        print("\nОсобенности:")
         print("  - Интерактивное исправление опечаток")
         print("  - Поиск точных фраз в кавычках")
         print("  - Умные подсказки")
         print("\nПримеры:")
         print("  /exact русы против ящеров")
         print("  /simple пайтон машинное обyчение")
-        print("  /advanced база данных")
+        print("  /boost база данных")
         print('  "точная фраза в кавычках"')
         print('  «русские кавычки тоже работают»')
 
@@ -322,9 +324,9 @@ def main():
                 elif user_input.startswith('/simple '):
                     query = user_input[8:]
                     search_type = "simple"
-                elif user_input.startswith('/advanced '):
-                    query = user_input[10:]
-                    search_type = "advanced"
+                elif user_input.startswith('/boost '):
+                    query = user_input[7:]
+                    search_type = "boost"
                 else:
                     # По умолчанию используем простой поиск
                     query = user_input

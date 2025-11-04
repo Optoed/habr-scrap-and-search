@@ -1,0 +1,852 @@
+{
+  "python машинное обучение": {
+    "total_results": 1893,
+    "results": [
+      {
+        "rank": 1,
+        "score": 147.81432,
+        "title": "Внедрение ML кластера для масштабирования AI сервисов",
+        "url": "https://habr.com/ru/articles/910800/",
+        "author": "kolegich",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 142.0702,
+        "title": "Есть ли у AMD перспективы в AI/ML/DL. Часть 1",
+        "url": "https://habr.com/ru/articles/909612/",
+        "author": "feanoref",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 134.52429,
+        "title": "Искусственный интеллект в киберзащите",
+        "url": "https://habr.com/ru/articles/904936/",
+        "author": "ptsecurity",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 134.52429,
+        "title": "Как тарифицировать AI-функционал",
+        "url": "https://habr.com/ru/articles/905438/",
+        "author": "Kual",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 131.82474,
+        "title": "Cast AI привлекает $108 млн для максимальной отдачи от AI",
+        "url": "https://habr.com/ru/articles/906074/",
+        "author": "dilnaz_04",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 125.30293,
+        "title": "ML-эксперименты проще с ClearML",
+        "url": "https://habr.com/ru/articles/901072/",
+        "author": "kochetkover",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 125.30293,
+        "title": "Организация ML-проекта с примерами",
+        "url": "https://habr.com/ru/articles/900788/",
+        "author": "kochetkover",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 125.30293,
+        "title": "Запуск ML-экспериментов через ClearML",
+        "url": "https://habr.com/ru/articles/902148/",
+        "author": "kochetkover",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 125.30293,
+        "title": "Парадокс Ньюкома и искусственный интеллект",
+        "url": "https://habr.com/ru/articles/902582/",
+        "author": "vened",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 125.30293,
+        "title": "Как тестировать AI-агентов, чтобы не было больно",
+        "url": "https://habr.com/ru/articles/902598/",
+        "author": "kucev",
+        "relevance": null
+      }
+    ]
+  },
+  "javascript фреймворк": {
+    "total_results": 656,
+    "results": [
+      {
+        "rank": 1,
+        "score": 31.90979,
+        "title": "О странностях Javascript",
+        "url": "https://habr.com/ru/articles/904868/",
+        "author": "alan_dani",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 29.84297,
+        "title": "Как делать внешние редиректы с JavaScript?",
+        "url": "https://habr.com/ru/articles/906744/",
+        "author": "maxxborer",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 28.90681,
+        "title": "Параллельный цикл на worker. Многопоточность JS",
+        "url": "https://habr.com/ru/articles/900488/",
+        "author": "Panda37",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 28.0276,
+        "title": "JavaScript: структуры данных и алгоритмы. Часть 11",
+        "url": "https://habr.com/ru/articles/903842/",
+        "author": "aio350",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 28.0276,
+        "title": "Почему JS (и TS) это плохой язык",
+        "url": "https://habr.com/ru/articles/905480/",
+        "author": "gitarizd",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 28.0276,
+        "title": "Веб-разработка на ванильном HTML, CSS и JavaScript",
+        "url": "https://habr.com/ru/articles/909390/",
+        "author": "ru_vds",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 28.0276,
+        "title": "Понимание MVC и MVP (для разработчиков JavaScript и Backbone)",
+        "url": "https://habr.com/ru/articles/910074/",
+        "author": "a-v-gor",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 26.420427,
+        "title": "@teqfw/di: Coding JavaScript like a Java boss",
+        "url": "https://habr.com/ru/articles/901678/",
+        "author": "flancer",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 26.420427,
+        "title": "Isomorphic-validation — Javascript библиотека, облегчающая валидацию пользовательского ввода",
+        "url": "https://habr.com/ru/articles/907724/",
+        "author": "itihon",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 26.420427,
+        "title": "Когда JavaScript недостаточно: Практика разработки нативных модулей для React Native",
+        "url": "https://habr.com/ru/articles/908690/",
+        "author": "notReadySir",
+        "relevance": null
+      }
+    ]
+  },
+  "база данных": {
+    "total_results": 685,
+    "results": [
+      {
+        "rank": 1,
+        "score": 88.05121,
+        "title": "5 главных критериев выбора инструмента для мониторинга баз данных",
+        "url": "https://habr.com/ru/articles/906874/",
+        "author": "Daria_Chetyrkina",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 86.28028,
+        "title": "Визуальное представление структуры btree индекса PostgreSQL",
+        "url": "https://habr.com/ru/articles/900440/",
+        "author": "OlegIct",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 86.28028,
+        "title": "Параметры конфигурации мастера, отслеживаемые репликами PostgreSQL",
+        "url": "https://habr.com/ru/articles/903030/",
+        "author": "OlegIct",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 84.46826,
+        "title": "LLM пайплайны укрощают сложность баз данных, или как мы подружили ИИ с БД без ИБД",
+        "url": "https://habr.com/ru/articles/907614/",
+        "author": "Safreliy",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 82.94388,
+        "title": "Аналитические запросы теста TPC-H в PostgreSQL",
+        "url": "https://habr.com/ru/articles/901528/",
+        "author": "OlegIct",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 82.94388,
+        "title": "Как Discord индексирует триллионы сообщений",
+        "url": "https://habr.com/ru/articles/904642/",
+        "author": "PatientZero",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 82.94388,
+        "title": "Не нужно оверинжинирить сокращатель ссылок",
+        "url": "https://habr.com/ru/articles/908730/",
+        "author": "PatientZero",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 81.9927,
+        "title": "Проблема мягкого удаления (deleted_at) и как её решить",
+        "url": "https://habr.com/ru/articles/910882/",
+        "author": "badcasedaily1",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 81.026794,
+        "title": "JDBC: Как Java научилась дружить с Базами Данных",
+        "url": "https://habr.com/ru/articles/902240/",
+        "author": "MaxRokatansky",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 81.026794,
+        "title": "Индексы в базах данных: сколько индексов — перебор?",
+        "url": "https://habr.com/ru/articles/907600/",
+        "author": "Daria_Chetyrkina",
+        "relevance": null
+      }
+    ]
+  },
+  "docker контейнеризация": {
+    "total_results": 251,
+    "results": [
+      {
+        "rank": 1,
+        "score": 30.191147,
+        "title": "Знание контейнеров: путь к большим деньгам в ИТ или временный хайп?",
+        "url": "https://habr.com/ru/articles/909650/",
+        "author": "ChislitelLab",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 28.38178,
+        "title": "Selectel выпустил бесплатный курс по Docker",
+        "url": "https://habr.com/ru/articles/903226/",
+        "author": "DimDimDimDimDim",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 24.79955,
+        "title": "Системные вызовы Linux, которые должен знать каждый разработчик",
+        "url": "https://habr.com/ru/articles/903650/",
+        "author": "alexgreendev",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 24.341288,
+        "title": "Внедрение ML кластера для масштабирования AI сервисов",
+        "url": "https://habr.com/ru/articles/910800/",
+        "author": "kolegich",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 24.134224,
+        "title": "Docker отказывается от виртуализации QEMU в Docker Desktop для Mac",
+        "url": "https://habr.com/ru/articles/903520/",
+        "author": "daniilshat",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 23.741348,
+        "title": "Linux для начинающих: WSL — это читерство. Как Microsoft дал нам Linux без головной боли",
+        "url": "https://habr.com/ru/articles/908450/",
+        "author": "r_revel",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 23.54178,
+        "title": "Платформа контейнеризации dBrain проходит сертификацию ФСТЭК",
+        "url": "https://habr.com/ru/articles/905796/",
+        "author": "dbraincloud",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 23.330547,
+        "title": "Разворачиваем GitLab за пару кликов",
+        "url": "https://habr.com/ru/articles/904236/",
+        "author": "Andrey_Biryukov",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 23.231445,
+        "title": "Команда Docker выпустила плагин Docker DX для VS Code",
+        "url": "https://habr.com/ru/articles/903890/",
+        "author": "daniilshat",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 22.67815,
+        "title": "Теги:",
+        "url": "https://habr.com/ru/articles/903180/",
+        "author": "MaxRokatansky",
+        "relevance": null
+      }
+    ]
+  },
+  "react компоненты": {
+    "total_results": 926,
+    "results": [
+      {
+        "rank": 1,
+        "score": 40.353195,
+        "title": "React Reconciliation: скрытый механизм, управляющий компонентами",
+        "url": "https://habr.com/ru/articles/901212/",
+        "author": "aio350",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 25.409986,
+        "title": "Когда JavaScript недостаточно: Практика разработки нативных модулей для React Native",
+        "url": "https://habr.com/ru/articles/908690/",
+        "author": "notReadySir",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 24.446035,
+        "title": "Какой фреймворк выбрать для MVP стартапа: опыт разработчика и фаундера",
+        "url": "https://habr.com/ru/articles/902336/",
+        "author": "timkaopensoul",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 24.446035,
+        "title": "Почему JS (и TS) это плохой язык",
+        "url": "https://habr.com/ru/articles/905480/",
+        "author": "gitarizd",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 23.381634,
+        "title": "Как я пытался спасти аккаунт разработчика в Google Play и в итоге сделал крипто-приложение",
+        "url": "https://habr.com/ru/articles/910612/",
+        "author": "Wladradchenko",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 23.213179,
+        "title": "Среда выполнения JavaScript простым языком: движок, Event Loop и очереди задач",
+        "url": "https://habr.com/ru/articles/910918/",
+        "author": "4Nun4ku",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 22.719515,
+        "title": "React vs Vue – подробное сравнение и перспективы",
+        "url": "https://habr.com/ru/articles/904698/",
+        "author": "poslezakata",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 22.39374,
+        "title": "Solid.js как альтернатива (P)React+MobX на практике",
+        "url": "https://habr.com/ru/articles/907924/",
+        "author": "DmitryKazakov8",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 22.385786,
+        "title": "Есть ли смысл применять SOLID в React?",
+        "url": "https://habr.com/ru/articles/908106/",
+        "author": "maks88sgt",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 22.370825,
+        "title": "React Labs: View Transitions, Activity и другие обновления",
+        "url": "https://habr.com/ru/articles/908488/",
+        "author": "aio350",
+        "relevance": null
+      }
+    ]
+  },
+  "нейросети": {
+    "total_results": 431,
+    "results": [
+      {
+        "rank": 1,
+        "score": 18.258854,
+        "title": "Нейросети: обучение или деградация?",
+        "url": "https://habr.com/ru/articles/900272/",
+        "author": "LimbakhV",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 18.258854,
+        "title": "Лучшие нейросети 2025",
+        "url": "https://habr.com/ru/articles/902092/",
+        "author": "Kual",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 18.258854,
+        "title": "Бумер, джуниор и нейросеть",
+        "url": "https://habr.com/ru/articles/902202/",
+        "author": "Tzimie",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 17.007248,
+        "title": "Как довести нейросеть до экзистенциального кризиса",
+        "url": "https://habr.com/ru/articles/903272/",
+        "author": "pomd",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 17.007248,
+        "title": "Я — редактор. И я боюсь, что меня заменит нейросеть",
+        "url": "https://habr.com/ru/articles/905086/",
+        "author": "21_copilots",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 17.007248,
+        "title": "Практика использования нейросетей в работе",
+        "url": "https://habr.com/ru/articles/905714/",
+        "author": "Maxilect",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 17.007248,
+        "title": "Больше данных — ровнее ландшафт нейросетей",
+        "url": "https://habr.com/ru/articles/906336/",
+        "author": "vsradkevich",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 17.007248,
+        "title": "Я программист. И я не боюсь, что меня заменят нейросети",
+        "url": "https://habr.com/ru/articles/908034/",
+        "author": "mrserfr",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 15.916225,
+        "title": "HIGGS: Новый алгоритм квантования нейросетей",
+        "url": "https://habr.com/ru/articles/900696/",
+        "author": "heavychevy",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 15.916225,
+        "title": "Геометрия ландшафта потерь и «понимание» нейросети",
+        "url": "https://habr.com/ru/articles/906374/",
+        "author": "vsradkevich",
+        "relevance": null
+      }
+    ]
+  },
+  "веб разработка": {
+    "total_results": 3271,
+    "results": [
+      {
+        "rank": 1,
+        "score": 39.716743,
+        "title": "Netter как способ упрощения разработки веб серверов",
+        "url": "https://habr.com/ru/articles/908808/",
+        "author": "bjfssd757",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 39.716743,
+        "title": "Веб-разработка на ванильном HTML, CSS и JavaScript",
+        "url": "https://habr.com/ru/articles/909390/",
+        "author": "ru_vds",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 37.685974,
+        "title": "Веб-разработка на ванильном HTML, CSS и JavaScript: стилизация и сайты",
+        "url": "https://habr.com/ru/articles/910734/",
+        "author": "ru_vds",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 36.747322,
+        "title": "«Сети Судного дня». Как разработка противоядерной ПВО привела к рождению Интернета?",
+        "url": "https://habr.com/ru/articles/909886/",
+        "author": "Erwinmal",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 35.854744,
+        "title": "Асинхронность в JavaScript, как использовать в web разработке на React, цепочка промисов и параллельное выполнение",
+        "url": "https://habr.com/ru/articles/910462/",
+        "author": "SergeySeredkinlipetsk",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 35.23851,
+        "title": "Знакомство с Web Locks API",
+        "url": "https://habr.com/ru/articles/901822/",
+        "author": "yadobr",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 33.950546,
+        "title": "Книга: «RESTful Web API: Паттерны и практики»",
+        "url": "https://habr.com/ru/articles/902070/",
+        "author": "ph_piter",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 31.68627,
+        "title": "Anthropic запускает API для веб-поиска на базе AI",
+        "url": "https://habr.com/ru/articles/907892/",
+        "author": "dilnaz_04",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 23.888653,
+        "title": "Как я вуз автоматизировал. Штурм веба",
+        "url": "https://habr.com/ru/articles/900834/",
+        "author": "sergq2022",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 23.888653,
+        "title": "Kubernetes и микросервисы для интернет-магазина",
+        "url": "https://habr.com/ru/articles/902922/",
+        "author": "bae_prosto",
+        "relevance": null
+      }
+    ]
+  },
+  "мобильные приложения": {
+    "total_results": 1962,
+    "results": [
+      {
+        "rank": 1,
+        "score": 37.620075,
+        "title": "Весеннее приложение для Android",
+        "url": "https://habr.com/ru/articles/900046/",
+        "author": "Ioanna",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 36.028934,
+        "title": "Raycast выпустила приложение для iOS",
+        "url": "https://habr.com/ru/articles/906134/",
+        "author": "daniilshat",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 35.741737,
+        "title": "Google выпустил приложение NotebookLM для Android и iOS",
+        "url": "https://habr.com/ru/articles/910936/",
+        "author": "maybe_elf",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 34.595753,
+        "title": "Offline First в мобильных приложениях. Кэширование",
+        "url": "https://habr.com/ru/articles/902060/",
+        "author": "Friflex_dev",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 34.595753,
+        "title": "Content Based Theme в Android приложении",
+        "url": "https://habr.com/ru/articles/904258/",
+        "author": "Dertefter",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 33.295135,
+        "title": "Rafinad: сахар для UI-тестирования iOS-приложений",
+        "url": "https://habr.com/ru/articles/910380/",
+        "author": "almazrafi",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 32.19116,
+        "title": "Приложение Move to iOS теперь может переносить историю вызовов и голосовые записи с Android",
+        "url": "https://habr.com/ru/articles/907206/",
+        "author": "maybe_elf",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 32.107178,
+        "title": "Как мобильное приложение для ВодоходЪ вырастило средний чек на 15%",
+        "url": "https://habr.com/ru/articles/901390/",
+        "author": "delaweb",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 32.107178,
+        "title": "Росреестр запустил мобильное приложение для граждан и кадастровых инженеров",
+        "url": "https://habr.com/ru/articles/904164/",
+        "author": "AnnieBronson",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 32.107178,
+        "title": "Offline First в мобильных приложениях. CRUD на стороне клиента",
+        "url": "https://habr.com/ru/articles/904448/",
+        "author": "Friflex_dev",
+        "relevance": null
+      }
+    ]
+  },
+  "искусственный интеллект": {
+    "total_results": 1580,
+    "results": [
+      {
+        "rank": 1,
+        "score": 147.81432,
+        "title": "Внедрение ML кластера для масштабирования AI сервисов",
+        "url": "https://habr.com/ru/articles/910800/",
+        "author": "kolegich",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 142.0702,
+        "title": "Есть ли у AMD перспективы в AI/ML/DL. Часть 1",
+        "url": "https://habr.com/ru/articles/909612/",
+        "author": "feanoref",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 134.52429,
+        "title": "Искусственный интеллект в киберзащите",
+        "url": "https://habr.com/ru/articles/904936/",
+        "author": "ptsecurity",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 134.52429,
+        "title": "Как тарифицировать AI-функционал",
+        "url": "https://habr.com/ru/articles/905438/",
+        "author": "Kual",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 131.82474,
+        "title": "Cast AI привлекает $108 млн для максимальной отдачи от AI",
+        "url": "https://habr.com/ru/articles/906074/",
+        "author": "dilnaz_04",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 125.30293,
+        "title": "ML-эксперименты проще с ClearML",
+        "url": "https://habr.com/ru/articles/901072/",
+        "author": "kochetkover",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 125.30293,
+        "title": "Организация ML-проекта с примерами",
+        "url": "https://habr.com/ru/articles/900788/",
+        "author": "kochetkover",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 125.30293,
+        "title": "Запуск ML-экспериментов через ClearML",
+        "url": "https://habr.com/ru/articles/902148/",
+        "author": "kochetkover",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 125.30293,
+        "title": "Парадокс Ньюкома и искусственный интеллект",
+        "url": "https://habr.com/ru/articles/902582/",
+        "author": "vened",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 125.30293,
+        "title": "Как тестировать AI-агентов, чтобы не было больно",
+        "url": "https://habr.com/ru/articles/902598/",
+        "author": "kucev",
+        "relevance": null
+      }
+    ]
+  },
+  "разработка игр": {
+    "total_results": 3010,
+    "results": [
+      {
+        "rank": 1,
+        "score": 30.931896,
+        "title": "Разработка игр для бизнеса: зачем нужна, а когда бесполезна",
+        "url": "https://habr.com/ru/articles/900516/",
+        "author": "DreamCraft",
+        "relevance": null
+      },
+      {
+        "rank": 2,
+        "score": 27.260807,
+        "title": "SWE-Agent: как AI-ассистенты меняют правила игры в разработке",
+        "url": "https://habr.com/ru/articles/910290/",
+        "author": "aufklarer",
+        "relevance": null
+      },
+      {
+        "rank": 3,
+        "score": 26.240406,
+        "title": "Прошло одно из интересных событий отечественной индустрии разработки игр в ВШБ",
+        "url": "https://habr.com/ru/articles/902936/",
+        "author": "hsbi",
+        "relevance": null
+      },
+      {
+        "rank": 4,
+        "score": 25.29997,
+        "title": "Game Engine 3 — оболочка для визуального программирования игр на Python (от идеи до реализации)",
+        "url": "https://habr.com/ru/articles/902426/",
+        "author": "artyom7777",
+        "relevance": null
+      },
+      {
+        "rank": 5,
+        "score": 20.833302,
+        "title": "Механика эволюции домов в Pharaoh (1999)",
+        "url": "https://habr.com/ru/articles/910456/",
+        "author": "dalerank",
+        "relevance": null
+      },
+      {
+        "rank": 6,
+        "score": 19.932724,
+        "title": "Почему игроки бросают вашу игру — и как QA может помочь",
+        "url": "https://habr.com/ru/articles/910814/",
+        "author": "karter",
+        "relevance": null
+      },
+      {
+        "rank": 7,
+        "score": 19.496151,
+        "title": "Вайб-кодинг или осознанная разработка? Я выбираю второе",
+        "url": "https://habr.com/ru/articles/908590/",
+        "author": "shsv382",
+        "relevance": null
+      },
+      {
+        "rank": 8,
+        "score": 19.346455,
+        "title": "Халява в программировании была?",
+        "url": "https://habr.com/ru/articles/905116/",
+        "author": "Georgii_L",
+        "relevance": null
+      },
+      {
+        "rank": 9,
+        "score": 19.273504,
+        "title": "М.Видео-Эльдорадо назвала топ самых популярных игр на майских праздниках",
+        "url": "https://habr.com/ru/articles/907570/",
+        "author": "mvideo",
+        "relevance": null
+      },
+      {
+        "rank": 10,
+        "score": 19.260021,
+        "title": "Лабиринты текста как игровая механика, или как неэкранизируемая литература становится источником геймдизайна",
+        "url": "https://habr.com/ru/articles/908920/",
+        "author": "DimDimDimDimDim",
+        "relevance": null
+      }
+    ]
+  }
+}
