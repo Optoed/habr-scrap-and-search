@@ -20,9 +20,9 @@ test_queries_config = [
 
 
 class SERPCollector:
-    def __init__(self):
+    def __init__(self, enable_spell_check=True):
         # импортируем основной класс
-        self.search_engine = HabrSearchEngine()
+        self.search_engine = HabrSearchEngine(enable_spell_check)
 
     def collect_serp_data(self, queries_config, output_json="serp_data.json", output_xlsx="serp_data.xlsx"):
         """Собирает данные по запросам и сохраняет в JSON и XLSX"""

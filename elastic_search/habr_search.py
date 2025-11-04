@@ -9,8 +9,9 @@ logger = logging.getLogger(__name__)
 
 
 class HabrSearchEngine:
-    def __init__(self):
+    def __init__(self, enable_spell_check=True): # True - спрашивает у пользователя про опечатку, False - не проверяет на опечатки
         self.es = Elasticsearch(["http://localhost:9200"])
+        self.enable_spell_check = enable_spell_check
         if not self.es.ping():
             raise ConnectionError("Не удалось подключиться к Elasticsearch")
 
@@ -90,6 +91,9 @@ class HabrSearchEngine:
 
     def should_use_spell_check(self, query):
         """Определяем, нужно ли использовать проверку орфографии"""
+        if self.enable_spell_check == False:
+            return False
+
         # Не проверяем точные фразы в кавычках
         if self.is_exact_phrase(query):
             print("Используется поиск точной фразы (без исправлений)")
