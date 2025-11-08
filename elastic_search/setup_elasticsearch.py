@@ -29,8 +29,9 @@ def create_habr_index(es_client):
                         "synonyms": [
                             "программирование, кодинг, разработка",
                             "js, javascript, джаваскрипт",
+                            "js фреймворки, javascript фреймворки, javascript фреймворк, react, react.js, vue.js, vue, angular",
                             "python, питон, пайтон",
-                            "java, джава",
+                            "java, джава, java spring",
                             "c++, cpp, плюсы",
                             "ai, искусственный интеллект, ml, машинное обучение, мл",
                             "db, база данных, database, бд",
