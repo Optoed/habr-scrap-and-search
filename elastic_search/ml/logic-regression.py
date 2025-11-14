@@ -32,7 +32,7 @@ def prepare_data(df):
 def train_logistic_regression(df):
     """Обучаем модель логистической регрессии"""
 
-    print("🎯 ОБУЧЕНИЕ ЛОГИСТИЧЕСКОЙ РЕГРЕССИИ")
+    print("ОБУЧЕНИЕ ЛОГИСТИЧЕСКОЙ РЕГРЕССИИ")
     print("=" * 50)
 
     # Подготовка данных
@@ -63,15 +63,15 @@ def train_logistic_regression(df):
     ])
 
     # Обучаем модель
-    print("📚 Обучаем модель на размеченных данных...")
+    print("Обучаем модель на размеченных данных...")
     model.fit(X_train, y_train)
 
     # Оцениваем качество
     y_pred = model.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
 
-    print(f"✅ Точность модели: {accuracy:.3f}")
-    print("\n📊 Отчет по классификации:")
+    print(f"Точность модели: {accuracy:.3f}")
+    print("\nОтчет по классификации:")
     print(classification_report(y_test, y_pred))
 
     return model, X_train, X_test, y_train, y_test
@@ -80,7 +80,7 @@ def train_logistic_regression(df):
 def analyze_feature_importance(model, feature_names, top_n=20):
     """Анализ важности признаков"""
 
-    print(f"\n🔍 ТОП-{top_n} ВАЖНЫХ ПРИЗНАКОВ:")
+    print(f"\nТОП-{top_n} ВАЖНЫХ ПРИЗНАКОВ:")
     print("=" * 50)
 
     # Получаем коэффициенты модели
@@ -102,7 +102,7 @@ def analyze_feature_importance(model, feature_names, top_n=20):
 def predict_new_articles(model, new_articles_df):
     """Предсказание для новых статей"""
 
-    print("\n🎯 ПРЕДСКАЗАНИЕ ДЛЯ НОВЫХ СТАТЕЙ")
+    print("\nПРЕДСКАЗАНИЕ ДЛЯ НОВЫХ СТАТЕЙ")
     print("=" * 50)
 
     # Подготавливаем новые данные
@@ -129,12 +129,12 @@ def main():
 
     # Проверяем, что есть размеченные данные
     if 'relevance' not in df.columns or df['relevance'].isna().all():
-        print("❌ Нет размеченных данных в колонке 'relevance'")
+        print("Нет размеченных данных в колонке 'relevance'")
         return
 
-    print(f"📊 Всего статей: {len(df)}")
-    print(f"🔸 Релевантных: {len(df[df['relevance'] == 1])}")
-    print(f"🔹 Нерелевантных: {len(df[df['relevance'] == 0])}")
+    print(f"Всего статей: {len(df)}")
+    print(f"Релевантных: {len(df[df['relevance'] == 1])}")
+    print(f"Нерелевантных: {len(df[df['relevance'] == 0])}")
 
     # Обучаем модель
     model, X_train, X_test, y_train, y_test = train_logistic_regression(df)
@@ -144,7 +144,7 @@ def main():
     analyze_feature_importance(model, feature_names)
 
     # Демонстрация предсказания на тестовых данных
-    print(f"\n🎪 ДЕМОНСТРАЦИЯ РАБОТЫ МОДЕЛИ:")
+    print(f"\nДЕМОНСТРАЦИЯ РАБОТЫ МОДЕЛИ:")
     print("=" * 50)
 
     test_predictions = model.predict(X_test)
@@ -159,12 +159,12 @@ def main():
         print(f"\nСтатья: {X_test.iloc[i][:80]}...")
         print(f"Фактическая релевантность: {actual}, Предсказанная: {predicted}")
         print(f"Вероятность релевантности: {prob:.3f}")
-        print("✅ Верно" if actual == predicted else "❌ Ошибка")
+        print("Верно" if actual == predicted else "Ошибка")
 
     # Сохраняем модель для будущего использования
     import joblib
     joblib.dump(model, 'relevance_classifier.pkl')
-    print(f"\n💾 Модель сохранена в 'relevance_classifier.pkl'")
+    print(f"\nМодель сохранена в 'relevance_classifier.pkl'")
 
 
 if __name__ == "__main__":
